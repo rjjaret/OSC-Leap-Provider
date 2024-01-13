@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &341498889279156041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5428894656249188333}
+  - component: {fileID: 1430540115016358809}
+  - component: {fileID: 3084378616882254998}
+  - component: {fileID: 2839944683708366658}
+  m_Layer: 0
+  m_Name: OSC Sender - Leap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5428894656249188333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341498889279156041}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1430540115016358809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341498889279156041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05bd21b2484f9426ca5e702760c7f837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3084378616882254998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341498889279156041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc91181ef8d44e5ea09fa9d6927143d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2839944683708366658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341498889279156041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 535a9a92d77f34c86b087edf81be3708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _remoteIP: 127.0.0.1
+  _sendToPort: 6448
+  _sendIntervalInMilli: 100
+  _minimumNumbIntervalsBetweenHits: 3
+  _featureValueSendThreshold: 1.2
+  _featuresToCheckForThreshold:
+  - RightPalmAccelerationX
+  - RightPalmAccelerationY
+  - RightPalmAccelerationZ
+  _featureListEnums: 7e0000008000000085000000860000008700000088000000890000008a000000
